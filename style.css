@@ -21,3 +21,30 @@ body
     margin: 0;
     background-color: var(--gray-700);
 }
+header
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a 
+{
+    color: var(--white);
+}
+input 
+{
+    background-color: var(--gray-600);
+    border-radius: 5px;
+    padding: 5px 80px;
+}
+
+header img 
+{
+    width: 2%;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
