@@ -13,3 +13,11 @@
     --orange: #ff7551;
     --green: #22b07d;
 }
+
+body
+{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: var(--gray-700);
+}
