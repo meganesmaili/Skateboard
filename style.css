@@ -112,7 +112,7 @@ nav
 .firstPartOfBasicJumping
 {
     display: flex;
-    justify-content: space-around;
+    gap: 100px;
 }
 .flexingPage
 {
@@ -124,7 +124,7 @@ h1
     color: var(--white);
     font-size: 2em;
 }
-.basicJumping
+.firstPartOfBasicJumping div
 {
     position: relative;
     left: 0;
@@ -134,11 +134,6 @@ h1
     color: var(--white);
     font-size: 1.5em;
     position: absolute;
-}
-.titleTips
-{
-    position: absolute;
-    gap: 5px;
 }
 .basicJumping img 
 {
@@ -158,8 +153,12 @@ h1
 .skateTips img 
 {
     opacity: 0.75;
-    width: 100%;
+    width: 50%;
     border-radius:5px ;
+}
+.titleTips
+{
+    top: 10px;
 }
 
 
